@@ -1,7 +1,9 @@
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
 
 body {
 
@@ -18,7 +20,7 @@ body {
 
 #menu-oculto{
     display: flex;
-    background-color: black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(243, 183, 161));
     justify-content: space-evenly;
     align-items: center;
     
@@ -33,7 +35,7 @@ body {
 
 
 .area1{
-background-color: rgba(247, 135, 94, 0.606);
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(243, 183, 161));
 color:black;
 width: 100%;
 height: 400px;
@@ -41,11 +43,20 @@ height: 400px;
 
 .titulo-area1{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 80px;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    
+    justify-content: flex-start;
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    font-weight: 100;
+    /*color: rgb(163, 157, 157);*/
+    background-image: linear-gradient(to bottom, rgb(37, 36, 37), rgb(123, 124, 124), rgb(192, 204, 203));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(163, 157, 157);
+    text size: 3rem;
+    
 }
 
 .area1 div{
