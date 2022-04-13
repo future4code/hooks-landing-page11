@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    padding: 10px;
+}
+
+
+
+#menu-oculto{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#menu-oculto a{
+    text-decoration: none;
+    color: rgb(245, 95, 40);
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.area1{
+background-color: rgba(247, 135, 94, 0.606);
+color:black;
+width: 100%;
+height: 400px;
+}
+
+.titulo-area1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.area1 div{
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(231, 94, 8);
+    color: white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  
+
+}
+
+
+
+.input{
+    width: 160px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 70px
+}
+
+
+
+.area2{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 450px;
+}
+
+.imagem-area2{
+    width: 100%;
+}
+
+.area3{
+    width: 100%;
+    height: 700px;
+}
+
+.area4{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 800px;
+}
+
+.area5{
+    
+}
+
+.area6{
+    width: 100%;
+    height: 1000px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.contato form{
+    display: flex;
+    margin: auto;
+    padding: 40px;
+}
