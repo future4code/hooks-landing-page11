@@ -20,7 +20,7 @@ body {
 
 #menu-oculto{
     display: flex;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(243, 183, 161));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(248, 238, 234));
     justify-content: space-evenly;
     align-items: center;
     
@@ -35,7 +35,7 @@ body {
 
 
 .area1{
-background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(243, 183, 161));
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(245, 206, 192));
 color:black;
 width: 100%;
 height: 400px;
@@ -50,14 +50,38 @@ height: 400px;
     padding-top: 5rem;
     font-weight: 100;
     /*color: rgb(163, 157, 157);*/
-    background-image: linear-gradient(to bottom, rgb(37, 36, 37), rgb(123, 124, 124), rgb(192, 204, 203));
+    background-image: linear-gradient(to bottom, rgb(218, 218, 218), rgba(245, 95, 40), rgb(231, 121, 71));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(163, 157, 157);
     text size: 3rem;
+    font-family: "Lato", sans-serif;
+    
     
 }
+
+.area1 h4 {
+    justify-content: flex-start;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    color: rgb(163, 157, 157);
+    font-weight: 100;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border: none;
+    text-decoration: none;
+    color: rgb(150, 141, 141);
+    padding: 1rem;
+    background-image: linear-gradient(to bottom, rgb(241, 116, 13), rgba(245, 95, 40), rgb(231, 121, 71));
+    color: aliceblue;
+}
+
 
 .area1 div{
     display: inline-flex;
