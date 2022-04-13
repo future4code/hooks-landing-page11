@@ -82,6 +82,11 @@ height: 400px;
     color: aliceblue;
 }
 
+.button:hover {
+    
+    color: rgb(150, 141, 141);
+}
+
 
 .area1 div{
     display: inline-flex;
