@@ -176,7 +176,7 @@ footer {
     bottom: 200px;
     left: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(245, 118, 13);
+    background: rgb(243, 220, 201);
     z-index: 10000;
     opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
@@ -186,7 +186,7 @@ footer {
 }
 
 .modal:target {
-    opacity: 1;
+    opacity: 0.9;
     pointer-events: auto;
     
 }
@@ -201,13 +201,15 @@ footer {
 }
 
 .pmodal {
-    color: #fff;
+    color: rgb(245, 95, 40);
     padding: 7px;
 }
 
 .fechar {
     color: #fff;
     align-items: center;
+    padding: 20px;
+    margin-top: 30px;
 }
     
 /*Quem Somos*/
