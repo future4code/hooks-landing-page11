@@ -192,7 +192,7 @@ footer {
     
     color: rgb(163, 157, 157);
     width: 100%;
-    height: 72vh;
+    height: 68vh;
     margin-top: 10%;
 }
 
@@ -215,6 +215,24 @@ footer {
 .conteudo-quemsomos h4 {
     margin-left: 4rem ;
     padding: 2rem;
+}
+
+.button-quemsomos {
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border: none;
+    text-decoration: none;
+    color: rgb(150, 141, 141);
+    padding: 1rem;
+    background-image: linear-gradient(to bottom, rgb(241, 116, 13), rgba(245, 95, 40), rgb(231, 121, 71));
+    color: aliceblue;
+}
+
+.button:hover {
+    
+    color: rgb(150, 141, 141);
 }
 
 .footer-quem-somos {
