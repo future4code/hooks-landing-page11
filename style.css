@@ -28,9 +28,7 @@ header {
     padding: 2rem;
     width: 100%;
     height: 1vh;
-    
-    
-    
+   
 }
 
 
@@ -153,7 +151,7 @@ header {
 
 .imagem-area2{
     width: 100%;
-    height: 100vh;
+    height: 103vh;
 }
 
 footer {
@@ -165,6 +163,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 10vh;
 }
 
 /*modal*/
@@ -344,6 +343,7 @@ ab{
     
 /*Quem Somos*/
 
+
 .titulo-area1-quemsomos {
     
     font-size: 3rem;
@@ -362,31 +362,23 @@ ab{
 }
 
 .area1-quemsomos {
-    display: inline;
-    
-    align-items: center;
-    
-    
+    display: inline;    
+    align-items: center; 
     color: rgb(163, 157, 157);
-    width: 100%;
-    height: 68vh;
     margin-top: 10%;
 }
 
 .main-area-1-quemsomos {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 87vh;
     background-color: rgb(247, 240, 231);
-    
-    
-
+   
 }
 
 .conteudo-quemsomos {
     display: flex;
-    
-    
+        
 }
 
 .conteudo-quemsomos h4 {
@@ -414,5 +406,6 @@ ab{
 
 .footer-quem-somos {
     width: 100%;
-    margin-bottom: 0%;
+    height: 10vh;
+    margin-bottom: 0;
 }
