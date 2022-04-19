@@ -154,16 +154,28 @@ header {
     height: 103vh;
 }
 
+.redes-sociais {
+    
+}
+
 footer {
     display: flex;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(250, 233, 221));
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    
     align-items: center;
     color: rgb(163, 157, 157);
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     width: 100%;
     height: 10vh;
+    flex-direction: column;
+    padding-bottom: 13px;
+
+}
+
+footer p {
+    
 }
 
 /*modal*/
